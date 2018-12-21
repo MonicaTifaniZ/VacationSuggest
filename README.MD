@@ -5,11 +5,10 @@ Program sederhana java untuk menentukan jarak tercepat ke destinasi wisata mengg
 ## Progress
 
 [21122018]
-Studi Literatur : 
-https://www.baeldung.com/java-dijkstra
+Studi Literatur -> https://www.baeldung.com/java-dijkstra
 
 ## Goal
 
-no yet setted
+?
 
 #### Panjibaskoro &copy; 2018 https://panjibaskoro.web.id/
