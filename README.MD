@@ -1,6 +1,13 @@
 # Vacation Suggest
 
-This project using java to decide which good or useful for the user. This project will be implementing Graph
+Program sederhana java untuk menentukan jarak tercepat ke destinasi wisata menggunakan algoritma Djikstra.
+
+## Progress
+
+[21122018]
+Studi Literatur : 
+https://www.baeldung.com/java-dijkstra
 
 
-### Panjibaskoro &copy; 2018 https://panjibaskoro.web.id/
+
+#### Panjibaskoro &copy; 2018 https://panjibaskoro.web.id/
