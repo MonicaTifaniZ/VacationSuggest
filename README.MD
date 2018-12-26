@@ -6,6 +6,8 @@ Program sederhana java untuk menentukan jarak tercepat ke destinasi wisata mengg
 
 [21122018]
 Studi Literatur -> https://www.baeldung.com/java-dijkstra
+[24122018]
+Studi Literatur -> https://medium.com/@ssaurel/calculate-shortest-paths-in-java-by-implementing-dijkstras-algorithm-5c1db06b6541
 
 ## Goal
 
