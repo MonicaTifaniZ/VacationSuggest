@@ -3,8 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dijkstraAlgorithm;
-
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.ArrayList;
@@ -231,6 +229,7 @@ public class Vacation {
         System.out.println("Distance to " + tu_juan + ": " + tu_juan.shortestDistance);
         List<Node> path = getShortestPathTo(tu_juan);
         System.out.println("Path: " + path);
+//        System.out.println(nodes[0].adjacencies[0].target.value);
     }
 
 }
