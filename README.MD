@@ -12,7 +12,9 @@ Studi Literatur -> https://medium.com/@ssaurel/calculate-shortest-paths-in-java-
 Studi Literatur -> Penggunaan Priority queue dapat mempermudah dalam proses pembuatan STP (Shortest Path)
 Link -> https://www.sanfoundry.com/java-program-find-shortest-path-between-two-vertices-using-dijkstras-algorithm/<br/>
 [31122018]
-program terakhir dipush  @MonicaTifaniz, mau selesai
+program terakhir dipush  @MonicaTifaniz, mau selesai<br/>
+[13012018]
+Push terakhir sebelum presentasi SELESAI
 
 ### Goal
 
