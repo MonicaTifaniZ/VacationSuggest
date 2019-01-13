@@ -1,3 +1,9 @@
+package test;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 import java.util.PriorityQueue;
 import java.util.List;
 import java.util.ArrayList;
@@ -6,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author @MonicaTifaniz
+ * @author ASUS
  */
 class Edge {
 
@@ -93,7 +99,7 @@ public class Vacation {
 
     public static void main(String[] args) {
 
-        //initialize the graph base on Malang map
+        //initialize the graph base on the Romania map
         Node n1 = new Node("Bakso Presiden","Tempat makan bakso legendaris di malang");
         Node n2 = new Node("Lupa Lelah","Cafe low budget ramah anak muda");
         Node n3 = new Node("Brewok Amprong","Cafenya anak hitz ibu kota");
@@ -189,6 +195,19 @@ public class Vacation {
 
         Node[] nodes = {n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15};
 
+        //compute paths
+        //computePaths(n1);
+        //print shortest paths
+        /*
+		for(Node n: nodes){
+			System.out.println("Distance to " + 
+				n + ": " + n.shortestDistance);
+    		List<Node> path = getShortestPathTo(n);
+    		System.out.println("Path: " + path);
+		};
+         */
+//        List<Node> path = getShortestPathTo(n13);
+//        System.out.println("Path: " + path);
         System.out.println("List tempat makan yang enak di malang:\n");
         for(int y = 0;y<nodes.length;y++){
             System.out.println((y+1)+"."+nodes[y].value);
@@ -206,6 +225,7 @@ public class Vacation {
                 break;
             }
         }
+//        computePaths(new Node(awal));
         System.out.print("Your Destination\t : ");
         tujuan = sc.nextLine();
         for (int i = 0; i < nodes.length; i++) {
@@ -215,9 +235,12 @@ public class Vacation {
             }
         }
         computePaths(aw_al);
+        //System.out.println("Distance to " + tu_juan + ": " + tu_juan.shortestDistance);
         List<Node> path = getShortestPathTo(tu_juan);
+        //System.out.println("Path: " + path);
         System.out.println(path.size());
         if(path.size()<2){
+            //computePaths(aw_al);   
             System.out.println("Maaf, anda nampaknya tidak ke mana-mana T_T");
         } else if(path.size()==2){
             System.out.println("Anda ada di : "+path.get(0));
@@ -225,6 +248,7 @@ public class Vacation {
             System.out.println("Deskripsi lokasi tujuan anda : \""+path.get(1).Description+"\"");
             System.out.println("Jarak ke " + tu_juan + " : " + tu_juan.shortestDistance+"km");
         } else if(path.size()>2){
+            //computePaths(aw_al);
             System.out.println("Anda ada di : "+path.get(0).value);
             System.out.println("dan akan menuju ke : "+path.get((path.size()-1)).value);
             System.out.println("Deskripsi lokasi tujuan anda : \""+path.get((path.size()-1)).Description+"\"");
@@ -234,7 +258,12 @@ public class Vacation {
             for(int u=0;u<path.size();u++){
                 System.out.println(path.get(u).value+" "+"\""+path.get(u-1).Description+"\"");
             }
+
         }
+
+        //System.out.println(path.get(1).value+path.get(1).Description);
+        //System.out.println(nodes[0].adjacencies[0].target.Description);
     }
+
 }
 
