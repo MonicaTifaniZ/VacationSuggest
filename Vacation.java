@@ -231,8 +231,8 @@ public class Vacation {
             System.out.println("Jarak ke " + tu_juan + " : " + tu_juan.shortestDistance+"km\n");
             System.out.println("===================");
             System.out.println("anda akan melewati beberapa tempat seperti : \n");
-            for(int u=0;u<path.size();u++){
-                System.out.println(path.get(u).value+" "+"\""+path.get(u-1).Description+"\"");
+            for(int u=0;u<(path.size()-1);u++){
+                System.out.println(path.get(u).value+" "+"\""+path.get(u).Description+"\"");
             }
         }
     }
